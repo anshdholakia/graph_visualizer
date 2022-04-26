@@ -2,3 +2,22 @@
     margin: 0;
     padding: 0;
 }
+
+.navbar{
+    height:10vh;
+}
+div#graph{
+    width:100%;
+    flex-wrap: wrap;
+    height: 90vh;
+    display: flex;
+    background-color: aliceblue;
+}
+.square{
+    height: 30px;
+    width: 30px;
+    margin: 2px;
+    border-radius: 3px;
+    background-color: black;
+    cursor: pointer;
+}
