@@ -18,6 +18,17 @@ div#graph{
     width: 30px;
     margin: 2px;
     border-radius: 3px;
-    background-color: black;
+    background-color: white;
+    -moz-box-shadow:    inset 0 0 2px #000000;
+    -webkit-box-shadow: inset 0 0 2px #000000;
+    box-shadow:         inset 0 0 2px #000000;
     cursor: pointer;
+}
+
+.square:hover{
+    background-color: purple;
+    height: 24px;
+    width:24px;
+    margin:5px;
+    transition: all 0.1s;
 }

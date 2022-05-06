@@ -1,0 +1,19 @@
+{
+  "name": "shortest-path-implement",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anshdholakia/shortest-path-implement.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anshdholakia/shortest-path-implement/issues"
+  },
+  "homepage": "https://github.com/anshdholakia/shortest-path-implement#readme"
+}

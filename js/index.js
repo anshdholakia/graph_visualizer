@@ -1,7 +1,7 @@
 var boxes = {};
 var graph = {};
 
-class Square{
+class Square{   
     constructor(){
         this.make_square();
     }
@@ -22,8 +22,7 @@ class Square{
 
 // main function
 function main(){
-    var area = $("#graph").height() * $("#graph").width();
-    var no_of_squares = Math.floor(area/Math.pow(34, 2));
+    var no_of_squares = Math.floor($("#graph").width()/34) * Math.floor($("#graph").height()/34);
     for(let i = 0; i < no_of_squares; i++){
         new Square();
     }
